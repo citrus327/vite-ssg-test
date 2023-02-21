@@ -1,0 +1,21 @@
+{
+  "name": "tmp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test-swc.js",
+  "scripts": {
+    "start": "swc-node test-swc.tsx",
+    "dev": "node -r '@swc/register' test-swc.tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "^1.3.35",
+    "@swc/register": "^0.1.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

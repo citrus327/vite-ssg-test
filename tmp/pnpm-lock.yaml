@@ -1,0 +1,199 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@swc/core': ^1.3.35
+  '@swc/register': ^0.1.10
+  react: ^18.2.0
+  react-dom: ^18.2.0
+
+dependencies:
+  react: 18.2.0
+  react-dom: 18.2.0_react@18.2.0
+
+devDependencies:
+  '@swc/core': 1.3.35
+  '@swc/register': 0.1.10_@swc+core@1.3.35
+
+packages:
+
+  /@swc/core-darwin-arm64/1.3.35:
+    resolution: {integrity: sha512-zQUFkHx4gZpu0uo2IspvPnKsz8bsdXd5bC33xwjtoAI1cpLerDyqo4v2zIahEp+FdKZjyVsLHtfJiQiA1Qka3A==, tarball: '@swc/core-darwin-arm64/download/@swc/core-darwin-arm64-1.3.35.tgz'}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-darwin-x64/1.3.35:
+    resolution: {integrity: sha512-oOSkSGWtALovaw22lNevKD434OQTPf8X+dVPvPMrJXJpJ34dWDlFWpLntoc+arvKLNZ7LQmTuk8rR1hkrAY7cw==, tarball: '@swc/core-darwin-x64/download/@swc/core-darwin-x64-1.3.35.tgz'}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-linux-arm-gnueabihf/1.3.35:
+    resolution: {integrity: sha512-Yie8k00O6O8BCATS/xeKStquV4OYSskUGRDXBQVDw1FrE23PHaSeHCgg4q6iNZjJzXCOJbaTCKnYoIDn9DMf7A==, tarball: '@swc/core-linux-arm-gnueabihf/download/@swc/core-linux-arm-gnueabihf-1.3.35.tgz'}
+    engines: {node: '>=10'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-linux-arm64-gnu/1.3.35:
+    resolution: {integrity: sha512-Zlv3WHa/4x2p51HSvjUWXHfSe1Gl2prqImUZJc8NZOlj75BFzVuR0auhQ+LbwvIQ3gaA1LODX9lyS9wXL3yjxA==, tarball: '@swc/core-linux-arm64-gnu/download/@swc/core-linux-arm64-gnu-1.3.35.tgz'}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-linux-arm64-musl/1.3.35:
+    resolution: {integrity: sha512-u6tCYsrSyZ8U+4jLMA/O82veBfLy2aUpn51WxQaeH7wqZGy9TGSJXoO8vWxARQ6b72vjsnKDJHP4MD8hFwcctg==, tarball: '@swc/core-linux-arm64-musl/download/@swc/core-linux-arm64-musl-1.3.35.tgz'}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-linux-x64-gnu/1.3.35:
+    resolution: {integrity: sha512-Dtxf2IbeH7XlNhP1Qt2/MvUPkpEbn7hhGfpSRs4ot8D3Vf5QEX4S/QtC1OsFWuciiYgHAT1Ybjt4xZic9DSkmA==, tarball: '@swc/core-linux-x64-gnu/download/@swc/core-linux-x64-gnu-1.3.35.tgz'}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-linux-x64-musl/1.3.35:
+    resolution: {integrity: sha512-4XavNJ60GprjpTiESCu5daJUnmErixPAqDitJSMu4TV32LNIE8G00S9pDLXinDTW1rgcGtQdq1NLkNRmwwovtg==, tarball: '@swc/core-linux-x64-musl/download/@swc/core-linux-x64-musl-1.3.35.tgz'}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-win32-arm64-msvc/1.3.35:
+    resolution: {integrity: sha512-dNGfKCUSX2M4qVyaS80Lyos0FkXyHRCvrdQ2Y4Hrg3FVokiuw3yY6fLohpUfQ5ws3n2A39dh7jGDeh34+l0sGA==, tarball: '@swc/core-win32-arm64-msvc/download/@swc/core-win32-arm64-msvc-1.3.35.tgz'}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-win32-ia32-msvc/1.3.35:
+    resolution: {integrity: sha512-ChuPSrDR+JBf7S7dEKPicnG8A3bM0uWPsW2vG+V2wH4iNfNxKVemESHosmYVeEZXqMpomNMvLyeHep1rjRsc0Q==, tarball: '@swc/core-win32-ia32-msvc/download/@swc/core-win32-ia32-msvc-1.3.35.tgz'}
+    engines: {node: '>=10'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-win32-x64-msvc/1.3.35:
+    resolution: {integrity: sha512-/RvphT4WfuGfIK84Ha0dovdPrKB1bW/mc+dtdmhv2E3EGkNc5FoueNwYmXWRimxnU7X0X7IkcRhyKB4G5DeAmg==, tarball: '@swc/core-win32-x64-msvc/download/@swc/core-win32-x64-msvc-1.3.35.tgz'}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core/1.3.35:
+    resolution: {integrity: sha512-KmiBin0XSVzJhzX19zTiCqmLslZ40Cl7zqskJcTDeIrRhfgKdiAsxzYUanJgMJIRjYtl9Kcg1V/Ip2o2wL8v3w==, tarball: '@swc/core/download/@swc/core-1.3.35.tgz'}
+    engines: {node: '>=10'}
+    requiresBuild: true
+    optionalDependencies:
+      '@swc/core-darwin-arm64': 1.3.35
+      '@swc/core-darwin-x64': 1.3.35
+      '@swc/core-linux-arm-gnueabihf': 1.3.35
+      '@swc/core-linux-arm64-gnu': 1.3.35
+      '@swc/core-linux-arm64-musl': 1.3.35
+      '@swc/core-linux-x64-gnu': 1.3.35
+      '@swc/core-linux-x64-musl': 1.3.35
+      '@swc/core-win32-arm64-msvc': 1.3.35
+      '@swc/core-win32-ia32-msvc': 1.3.35
+      '@swc/core-win32-x64-msvc': 1.3.35
+    dev: true
+
+  /@swc/register/0.1.10_@swc+core@1.3.35:
+    resolution: {integrity: sha512-6STwH/q4dc3pitXLVkV7sP0Hiy+zBsU2wOF1aXpXR95pnH3RYHKIsDC+gvesfyB7jxNT9OOZgcqOp9RPxVTx9A==, tarball: '@swc/register/download/@swc/register-0.1.10.tgz'}
+    hasBin: true
+    peerDependencies:
+      '@swc/core': ^1.0.46
+    dependencies:
+      '@swc/core': 1.3.35
+      lodash.clonedeep: 4.5.0
+      pirates: 4.0.5
+      source-map-support: 0.5.21
+    dev: true
+
+  /buffer-from/1.1.2:
+    resolution: {integrity: sha1-KxRqb9cugLT1XSVfNe1Zo6mkG9U=, tarball: buffer-from/download/buffer-from-1.1.2.tgz}
+    dev: true
+
+  /js-tokens/4.0.0:
+    resolution: {integrity: sha1-GSA/tZmR35jjoocFDUZHzerzJJk=, tarball: js-tokens/download/js-tokens-4.0.0.tgz}
+    dev: false
+
+  /lodash.clonedeep/4.5.0:
+    resolution: {integrity: sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=, tarball: lodash.clonedeep/download/lodash.clonedeep-4.5.0.tgz}
+    dev: true
+
+  /loose-envify/1.4.0:
+    resolution: {integrity: sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=, tarball: loose-envify/download/loose-envify-1.4.0.tgz}
+    hasBin: true
+    dependencies:
+      js-tokens: 4.0.0
+    dev: false
+
+  /pirates/4.0.5:
+    resolution: {integrity: sha512-8V9+HQPupnaXMA23c5hvl69zXvTwTzyAYasnkb0Tts4XvO4CliqONMOnvlq26rkhLC3nWDFBJf73LU1e1VZLaQ==, tarball: pirates/download/pirates-4.0.5.tgz}
+    engines: {node: '>= 6'}
+    dev: true
+
+  /react-dom/18.2.0_react@18.2.0:
+    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==, tarball: react-dom/download/react-dom-18.2.0.tgz}
+    peerDependencies:
+      react: ^18.2.0
+    dependencies:
+      loose-envify: 1.4.0
+      react: 18.2.0
+      scheduler: 0.23.0
+    dev: false
+
+  /react/18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==, tarball: react/download/react-18.2.0.tgz}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+    dev: false
+
+  /scheduler/0.23.0:
+    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==, tarball: scheduler/download/scheduler-0.23.0.tgz}
+    dependencies:
+      loose-envify: 1.4.0
+    dev: false
+
+  /source-map-support/0.5.21:
+    resolution: {integrity: sha1-BP58f54e0tZiIzwoyys1ufY/bk8=, tarball: source-map-support/download/source-map-support-0.5.21.tgz}
+    dependencies:
+      buffer-from: 1.1.2
+      source-map: 0.6.1
+    dev: true
+
+  /source-map/0.6.1:
+    resolution: {integrity: sha1-dHIq8y6WFOnCh6jQu95IteLxomM=, tarball: source-map/download/source-map-0.6.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: true

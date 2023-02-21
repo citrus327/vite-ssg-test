@@ -4,12 +4,10 @@ import Koa from "koa";
 import koaConnect from "koa-connect";
 import { createServer as createViteServer } from "vite";
 import colors from "colors";
-import { fileURLToPath } from "url";
 import serve from "koa-static";
+import { PipeableStream } from "react-dom/server.js";
 
 const PORT = 3000;
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 const resolve = (p) => path.resolve(__dirname, p);
 
 const isProduction = process.env.NODE_ENV === "production";
@@ -56,8 +54,7 @@ async function createAppServer() {
       }
 
       const context = {};
-      const appHtml = await render(url, context);
-      const html = template.replace(`<!--app-html-->`, appHtml);
+      const html = await render(url, context);
 
       ctx.status = 200;
       ctx.type = "text/html";
@@ -65,7 +62,7 @@ async function createAppServer() {
     } catch (e) {
       !isProduction && viteServer.ssrFixStacktrace(e);
       console.error(e);
-      next(e);
+      next();
     }
   });
 
