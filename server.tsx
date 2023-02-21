@@ -55,10 +55,12 @@ async function createAppServer() {
 
       const context = {};
       const html = await render(url, context);
+      // const html: PipeableStream = await render(url, context);
 
       ctx.status = 200;
       ctx.type = "text/html";
       ctx.body = html;
+      // html.pipe(ctx.res).end();
     } catch (e) {
       !isProduction && viteServer.ssrFixStacktrace(e);
       console.error(e);
